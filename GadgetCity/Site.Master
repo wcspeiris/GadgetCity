@@ -1,0 +1,102 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GadgetCity.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %></title>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <script type="text/javascript">
+        var appInsights=window.appInsights||function(config){
+            function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;for(s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace","Ajax"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
+        }({
+            instrumentationKey:"ca4f3f7f-3bf8-40a4-ae17-2e69d624b888"
+        });
+        
+        window.appInsights=appInsights;
+        appInsights.trackPageView();
+    </script>
+</head>
+<body style="padding:0">
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div style="padding:0" class="container-fluid">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <footer style="color:#000000;font-family:Calibri;" class="container-fluid text-center">
+                <div style="margin-bottom:2vh;background-color:#333333;padding:20px;border-top:#808080 solid 5px;" class="row">
+                    <div class="col-md-4 col-md-offset-4" style="color:white">
+                        <h3>Contact GadgetCity</h3>
+                       <asp:TextBox placeholder="Full Name" CssClass="contat-form-inputs" ID="clientName" runat="server"></asp:TextBox>
+                       <asp:TextBox placeholder="Email" CssClass="contat-form-inputs" ID="clientEmail" runat="server"></asp:TextBox>
+                       <asp:TextBox placeholder="Message" CssClass="contat-form-inputs" ID="ClientMessage" runat="server" TextMode="MultiLine"></asp:TextBox>
+                        <asp:Button CssClass="button_white" ID="send_email" runat="server" Text="Send" />
+                    </div>
+                </div>
+                <div style="margin-bottom:2vh" class="row">
+                    <div class="col-md-4 col-md-offset-4">
+                        <img class="social-ioc" src="images/social-ico/if_facebook_online_social_media_734399.png" />
+                        <img class="social-ioc" src="images/social-ico/if_google_plus_logo_social_media_1071019.png" />
+                        <img class="social-ioc" src="images/social-ico/if_instagram_online_social_media_734394.png" />
+                        <img class="social-ioc" src="images/social-ico/if_online_social_media_twitter_734377.png" />
+                    </div>
+                </div>
+                <div  style="margin-bottom:2vh" class="row">
+                    
+                    <div class="col-md-2 col-md-offset-3">
+                        <p class="contat-info-foot"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                            tetsCompany@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="contat-info-foot"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                            (+94)00 423 3654
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="contat-info-foot"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                            Test Address
+                        </p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <hr />
+                     <div class="col-md-4 col-md-offset-4">
+                    <p>&copy; <%: DateTime.Now.Year %> GadgetCity. All Rights Reserved</p>
+                </div>
+                </div>
+            </footer>
+
+        </div>
+    </form>
+</body>
+</html>

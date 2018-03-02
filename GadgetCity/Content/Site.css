@@ -1,0 +1,204 @@
+﻿/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+body{
+    overflow-x: hidden;
+}
+.social-ioc{
+    width:12%;
+}
+
+.contat-info-foot{
+   font-size:16px;
+}
+
+.contat-form-inputs{
+    width:100%;
+    margin:10px;
+    padding:5px;
+    font-size:12px;
+    border:none;
+    border-bottom:solid #808080 2px;
+    resize:none;background: transparent;
+        -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.contat-form-inputs:focus{
+    border-bottom:solid #FFFFFF 2px;
+}
+
+
+.cont-info-text{
+    width:80%;
+    border-right: 1px solid white;
+    padding:5px;
+    padding-right:10px;
+    float:left;
+}
+.cont-info-ioc{
+    padding:11px;
+    font-size:15px;
+    color:#FFFFFF;
+}
+
+.con_title{
+    margin:0;
+    font-size:15px;
+    font-weight: bold;
+    color:#808080
+}
+
+.con_big{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.con_info{
+    color:#FFFFFF;
+}
+
+.button_white{
+    -webkit-transition: 1.0s;
+	padding:10px;
+    padding-left:15%;
+    padding-right:15%;
+	border:none;
+	text-transform:uppercase;
+	letter-spacing:2px;
+    color:black;
+}
+
+.button_white:hover{
+	background-color:#999;
+}
+
+.logoDIv{
+    width:20%;
+    height:20%;
+    float:left;
+}
+.item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item:hover img {
+  -moz-transform: scale(1.8);
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+  z-index:1;
+}
+
+.headerImage{
+    background:url(../images/header_image1.jpg);
+    height:40vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.HeadrBrancID{
+    -webkit-transition: 1.0s;
+    margin-top:20%;
+    margin-left:0%;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    border:none;
+    border-bottom: 2px solid black;
+    padding:10px;
+    background-color:rgba(255, 255, 255,0.5)
+}
+
+.bradnNameSide{
+    text-transform:uppercase;
+    border:none;
+    padding:10px;
+    font-size:20px;
+    font-weight:bold;
+    margin:0;
+}
+
+.bradnPartInfo{
+    margin:0;
+    padding:10px;
+    font-size:15px;
+    text-transform:uppercase;
+}
+
+.typeText{
+     font-size:15px;
+     text-transform:uppercase;
+     font-weight:bold;
+     padding:10px;
+}
+
+.Item_cehckBox{
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border:1px solid black;
+    outline:none;
+    background-color: black;
+    font-size:20px;
+    float:left;
+    
+}
+
+.modeText{
+    font-size:15px;
+    text-transform:uppercase;
+    margin-left:40px;
+    font-weight:bold;
+    margin-top:10px
+}
+
+.item_dive{
+    padding:10px;
+    -webkit-transition: 1.0s;
+}
+
+.item_dive:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.butto_url{
+    -webkit-transition: 1.0s;
+    background-color: #33ccff;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color:#FFFFFF;
+
+}
+.butto_url:hover
+{color:#FFFFFF;
+     text-decoration: none;
+	background-color:#4da2fc;
+}
+.partTitle{
+    font-size:20px;
+    text-align:center;
+    font-family:Calibri;
+    font-weight:bold;
+}
+
+.partInfoTable {
+    font-size:20px;
+    font-family:Calibri;
+    font-weight:bold;
+}
