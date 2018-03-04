@@ -31,4 +31,14 @@
     <div id="viewBrandDiv" runat="server" style="margin:0;width:100%;padding:0" class="container-fluid">
         
     </div>
+    <div style="background-color:#333333;padding:20px;border-top:#808080 solid 5px;" class="row">
+                    <div class="col-md-4 col-md-offset-4" style="color:white">
+                        <h3>Contact GadgetCity</h3>
+                       <asp:TextBox placeholder="Full Name" CssClass="contat-form-inputs" ID="clientName" runat="server"></asp:TextBox>
+                       <asp:TextBox placeholder="Email" CssClass="contat-form-inputs" ID="clientEmail" runat="server"></asp:TextBox>
+                       <asp:TextBox placeholder="Message" CssClass="contat-form-inputs" ID="ClientMessage" runat="server" TextMode="MultiLine"></asp:TextBox>
+                       <asp:Button OnClick="send_email_Click" CssClass="button_white" ID="send_email" runat="server" Text="Send" />
+                       
+      </div>
+    </div>
 </asp:Content>

@@ -10,60 +10,60 @@
 namespace GadgetCity {
     
     
-    public partial class _Default {
+    public partial class sendReplay {
         
         /// <summary>
-        /// viewBrand control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel viewBrand;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// viewBrandDiv control.
+        /// InqNameShort control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl viewBrandDiv;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl InqNameShort;
         
         /// <summary>
-        /// clientName control.
+        /// InqName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox clientName;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl InqName;
         
         /// <summary>
-        /// clientEmail control.
+        /// InqDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox clientEmail;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl InqDate;
         
         /// <summary>
-        /// ClientMessage control.
+        /// InqEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ClientMessage;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl InqEmail;
         
         /// <summary>
-        /// send_email control.
+        /// InqMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button send_email;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl InqMessage;
     }
 }
