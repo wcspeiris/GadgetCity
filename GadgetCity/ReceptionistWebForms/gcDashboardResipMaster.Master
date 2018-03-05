@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../assets/vendor/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="../assets/vendor/linearicons/style.css" />
     <link rel="stylesheet" href="../assets/vendor/chartist/css/chartist-custom.css" />
+    <link rel="stylesheet" href="../Content/Site.css" />
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="../assets/css/main.css" />
     <!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
@@ -92,23 +93,7 @@
                     <nav>
                         <ul class="nav">
                             <li><a href="gcReciptionist.aspx" class="" id="index"><i class="lnr lnr-home"></i><span>Dashboard</span></a></li>
-                            <li><a href="gcDashbardElements.aspx" class="" id="element"><i class="lnr lnr-code"></i><span>Elements</span></a></li>
-                            <li><a href="#" class=""><i class="lnr lnr-chart-bars"></i><span>Charts</span></a></li>
-                            <li><a href="#" class=""><i class="lnr lnr-cog"></i><span>Panels</span></a></li>
-                            <li><a href="#" class=""><i class="lnr lnr-alarm"></i><span>Notifications</span></a></li>
-                            <li>
-                                <a href="#subPages" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i><span>Pages</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-                                <div id="subPages" class="collapse ">
-                                    <ul class="nav">
-                                        <li><a href="#" class="">Profile</a></li>
-                                        <li><a href="#" class="">Login</a></li>
-                                        <li><a href="#" class="">Lockscreen</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="#" class=""><i class="lnr lnr-dice"></i><span>Tables</span></a></li>
-                            <li><a href="#" class=""><i class="lnr lnr-text-format"></i><span>Typography</span></a></li>
-                            <li><a href="#" class=""><i class="lnr lnr-linearicons"></i><span>Icons</span></a></li>
+                            <li><a href="InquiryList.aspx" class="" id="element"><i class="lnr lnr-code"></i><span>Inquiries </span></a></li>
                         </ul>
                     </nav>
                 </div>

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../Content/bootstrap.min.css" />
     <link rel="stylesheet" href="../Content/bootstrap-theme.min.css" />
 </head>
-<body>
+<body style="background-color:#f3f5f8;">
     <form id="form1" runat="server">
 
         <div class="container">

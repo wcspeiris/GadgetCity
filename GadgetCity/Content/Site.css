@@ -256,8 +256,9 @@ body{
 .ReplayWindow{
     width:100%;
     border:none;
-    height:84vh;
+    height:75vh;
     font-family:Calibri;
+    background-color:#f3f5f8;
 }
 
 .ClientNameReplay{
