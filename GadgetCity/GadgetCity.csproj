@@ -279,6 +279,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminWebForms\AdminClasses\ClassUser.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -351,14 +352,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="AdminWebForms\AdminClass\" />
-    <Folder Include="AdminWebForms\AdminDataBase\" />
+    <Folder Include="AdminWebForms\AdminDatabase\" />
     <Folder Include="App_Data\" />
     <Folder Include="inquireView\" />
-    <Folder Include="ResipstionWebForms\ResipstionClass\" />
-    <Folder Include="ResipstionWebForms\ResipstionDataBase\" />
-    <Folder Include="StoreKeeperForms\StoreKeeperClass\" />
-    <Folder Include="StoreKeeperForms\StoreKeeperDataBase\" />
+    <Folder Include="ReceptionistWebForms\ReceptionistClasses\" />
+    <Folder Include="ReceptionistWebForms\ReceptionistDatabase\" />
+    <Folder Include="StorekeeperWebForms\StorekeeperClasses\" />
+    <Folder Include="StorekeeperWebForms\StorekeeperDatabase\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
