@@ -263,6 +263,9 @@ body{
 .ClientNameReplay{
     font-family:Calibri;
     margin:0;
+    font-size:18px;
+    font-weight:bold;
+    margin-left:40px;
 }
 
 .ClientEmail{
@@ -276,6 +279,7 @@ body{
 .ClientDate{
     font-family:Calibri;
     margin:0;
+    margin-left:40px;
 }
 .ClientNS{
      font-family:Calibri;

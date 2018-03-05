@@ -14,6 +14,8 @@ namespace GadgetCity
         string clientName;
         string inqId;
         string dateTime;
+        string secondWord;
+        string letterTwo;
         protected void Page_Load(object sender, EventArgs e)
         {
             inqId = Request.QueryString["inqId"].ToString();
@@ -23,11 +25,19 @@ namespace GadgetCity
             dateTime = Request.QueryString["inqdatt"];
 
             string letterOne = clientName.Substring(0, 1);
-            string secondWord = clientName.Split(' ')[1];
-            string letterTwo = secondWord.Substring(0, 1);
+            int spaceCount = clientName.TakeWhile(Char.IsWhiteSpace).Count();
 
+            if(spaceCount == 1)
+            {
+                secondWord = clientName.Split(' ')[1];
+                letterTwo = secondWord.Substring(0, 1);
+                InqNameShort.InnerText = letterOne + letterTwo;
+            }
+            else
+            {
+                InqNameShort.InnerText = letterOne;
+            }
 
-            InqNameShort.InnerText = letterOne + letterTwo;
             InqName.InnerText = clientName;
             InqMessage.InnerText = message;
             InqEmail.InnerText = email;
