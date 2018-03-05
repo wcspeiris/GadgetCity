@@ -185,10 +185,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminWebForms\gcAdminstration.aspx" />
     <Content Include="AdminWebForms\images\social-ico\if_facebook_online_social_media_734399.png" />
     <Content Include="AdminWebForms\images\social-ico\if_google_plus_logo_social_media_1071019.png" />
     <Content Include="AdminWebForms\images\social-ico\if_instagram_online_social_media_734394.png" />
     <Content Include="AdminWebForms\images\social-ico\if_online_social_media_twitter_734377.png" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\demo.css" />
+    <Content Include="assets\css\main.css" />
+    <Content Include="assets\img\apple-icon.png" />
+    <Content Include="assets\img\favicon.png" />
+    <Content Include="assets\img\login-bg.jpg" />
+    <Content Include="assets\img\logo-dark.png" />
+    <Content Include="assets\img\profile-bg.png" />
+    <Content Include="assets\img\user-medium.png" />
+    <Content Include="assets\img\user.png" />
+    <Content Include="assets\img\user1.png" />
+    <Content Include="assets\img\user2.png" />
+    <Content Include="assets\img\user3.png" />
+    <Content Include="assets\img\user4.png" />
+    <Content Include="assets\img\user5.png" />
+    <Content Include="assets\scripts\klorofil-common.js" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\vendor\bootstrap\js\npm.js" />
+    <Content Include="assets\vendor\chartist\css\chartist-custom.css" />
+    <Content Include="assets\vendor\chartist\css\chartist.css" />
+    <Content Include="assets\vendor\chartist\css\chartist.min.css" />
+    <Content Include="assets\vendor\chartist\js\chartist.js" />
+    <Content Include="assets\vendor\chartist\js\chartist.min.js" />
+    <Content Include="assets\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="assets\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="assets\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\vendor\jquery-slimscroll\jquery.slimscroll.js" />
+    <Content Include="assets\vendor\jquery-slimscroll\jquery.slimscroll.min.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\angular.easypiechart.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\angular.easypiechart.min.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\easypiechart.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\easypiechart.min.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\jquery.easypiechart.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\jquery.easypiechart.min.js" />
+    <Content Include="assets\vendor\jquery\jquery.js" />
+    <Content Include="assets\vendor\jquery\jquery.min.js" />
+    <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.svg" />
+    <Content Include="assets\vendor\linearicons\style.css" />
+    <Content Include="assets\vendor\toastr\toastr.css" />
+    <Content Include="assets\vendor\toastr\toastr.js" />
+    <Content Include="assets\vendor\toastr\toastr.min.css" />
+    <Content Include="assets\vendor\toastr\toastr.min.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -225,6 +275,8 @@
     <Content Include="images\social-ico\if_online_social_media_twitter_734377.png" />
     <Content Include="images\spare-part-cata\common.jpg" />
     <Content Include="images\spare-part-cata\clutch-system\s-l225.jpg" />
+    <Content Include="ReceptionistWebForms\gcDashbardElements.aspx" />
+    <Content Include="ReceptionistWebForms\gcReciptionist.aspx" />
     <Content Include="ReceptionistWebForms\InquiryList.aspx" />
     <Content Include="partOrder.aspx" />
     <Content Include="ReceptionistWebForms\images\social-ico\if_facebook_online_social_media_734399.png" />
@@ -235,6 +287,29 @@
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="assets\css\demo.css.map" />
+    <Content Include="assets\css\main.css.map" />
+    <Content Include="assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="assets\vendor\chartist\css\chartist-custom.css.map" />
+    <Content Include="assets\vendor\chartist\map\chartist.css.map" />
+    <Content Include="assets\vendor\chartist\map\chartist.min.js.map" />
+    <Content Include="assets\vendor\chartist\scss\chartist.scss" />
+    <Content Include="assets\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="assets\vendor\jquery\jquery.min.map" />
+    <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.eot" />
+    <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.ttf" />
+    <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.woff" />
+    <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.woff2" />
+    <Content Include="StorekeeperWebForms\gcDashboardStoreMaster.Master" />
+    <Content Include="ReceptionistWebForms\gcDashboardResipMaster.Master" />
+    <Content Include="AdminWebForms\gcDashboardAdminMaster.Master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -270,6 +345,7 @@
     <Content Include="Global.asax" />
     <Content Include="ReceptionistWebForms\sendReplay.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="StorekeeperWebForms\gcStoreKeeper.aspx" />
     <Content Include="StorekeeperWebForms\images\social-ico\if_facebook_online_social_media_734399.png" />
     <Content Include="StorekeeperWebForms\images\social-ico\if_google_plus_logo_social_media_1071019.png" />
     <Content Include="StorekeeperWebForms\images\social-ico\if_instagram_online_social_media_734394.png" />
@@ -292,6 +368,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminWebForms\AdminClasses\ClassUser.cs" />
+    <Compile Include="AdminWebForms\gcAdminstration.aspx.cs">
+      <DependentUpon>gcAdminstration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminWebForms\gcAdminstration.aspx.designer.cs">
+      <DependentUpon>gcAdminstration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminWebForms\gcDashboardAdminMaster.Master.cs">
+      <DependentUpon>gcDashboardAdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminWebForms\gcDashboardAdminMaster.Master.designer.cs">
+      <DependentUpon>gcDashboardAdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptionistWebForms\gcDashboardResipMaster.Master.cs">
+      <DependentUpon>gcDashboardResipMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReceptionistWebForms\gcDashboardResipMaster.Master.designer.cs">
+      <DependentUpon>gcDashboardResipMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="StorekeeperWebForms\gcDashboardStoreMaster.Master.cs">
+      <DependentUpon>gcDashboardStoreMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StorekeeperWebForms\gcDashboardStoreMaster.Master.designer.cs">
+      <DependentUpon>gcDashboardStoreMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -316,6 +420,20 @@
     <Compile Include="gcdatabase\gcConnection.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptionistWebForms\gcDashbardElements.aspx.cs">
+      <DependentUpon>gcDashbardElements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReceptionistWebForms\gcDashbardElements.aspx.designer.cs">
+      <DependentUpon>gcDashbardElements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptionistWebForms\gcReciptionist.aspx.cs">
+      <DependentUpon>gcReciptionist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReceptionistWebForms\gcReciptionist.aspx.designer.cs">
+      <DependentUpon>gcReciptionist.aspx</DependentUpon>
     </Compile>
     <Compile Include="ReceptionistWebForms\InquiryList.aspx.cs">
       <DependentUpon>InquiryList.aspx</DependentUpon>
@@ -355,6 +473,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="StorekeeperWebForms\gcStoreKeeper.aspx.cs">
+      <DependentUpon>gcStoreKeeper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StorekeeperWebForms\gcStoreKeeper.aspx.designer.cs">
+      <DependentUpon>gcStoreKeeper.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
