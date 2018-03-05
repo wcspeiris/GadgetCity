@@ -6,7 +6,7 @@
                 
             </div>
             <div class="col-md-8">
-                <iframe name="Namegg" class="ReplayWindow"></iframe>
+                <iframe style="padding:20px;" name="Namegg" class="ReplayWindow"></iframe>
             </div>
         </div>
     </div>

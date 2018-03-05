@@ -11,7 +11,7 @@ namespace GadgetCity
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            ReceptionistWebForms.ReceptionistClasses.sendInquiryReplay.inqCOunter(inqCount);
         }
     }
 }

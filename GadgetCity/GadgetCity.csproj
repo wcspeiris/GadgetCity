@@ -307,6 +307,7 @@
     <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.ttf" />
     <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.woff" />
     <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.woff2" />
+    <Content Include="Scripts\sweetalert.min.js" />
     <Content Include="StorekeeperWebForms\gcDashboardStoreMaster.Master" />
     <Content Include="ReceptionistWebForms\gcDashboardResipMaster.Master" />
     <Content Include="AdminWebForms\gcDashboardAdminMaster.Master" />
@@ -389,6 +390,7 @@
     <Compile Include="ReceptionistWebForms\gcDashboardResipMaster.Master.designer.cs">
       <DependentUpon>gcDashboardResipMaster.Master</DependentUpon>
     </Compile>
+    <Compile Include="ReceptionistWebForms\ReceptionistClasses\sendInquiryReplay.cs" />
     <Compile Include="StorekeeperWebForms\gcDashboardStoreMaster.Master.cs">
       <DependentUpon>gcDashboardStoreMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -492,7 +494,6 @@
     <Folder Include="AdminWebForms\AdminDatabase\" />
     <Folder Include="App_Data\" />
     <Folder Include="inquireView\" />
-    <Folder Include="ReceptionistWebForms\ReceptionistClasses\" />
     <Folder Include="ReceptionistWebForms\ReceptionistDatabase\" />
     <Folder Include="StorekeeperWebForms\StorekeeperClasses\" />
     <Folder Include="StorekeeperWebForms\StorekeeperDatabase\" />

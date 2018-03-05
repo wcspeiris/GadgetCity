@@ -256,7 +256,8 @@ body{
 .ReplayWindow{
     width:100%;
     border:none;
-    height:75vh;
+    height:78vh;
+    padding:50px;
     font-family:Calibri;
     background-color:#f3f5f8;
 }
@@ -301,10 +302,12 @@ body{
 }
 
 .replay_messageBox{
+    -webkit-transition: 1.0s;
     width:100%;
     padding:10px;
     height:50vh;
     resize:none;
+    margin-top:10px;
 }
 
 
@@ -325,4 +328,22 @@ body{
     color:#FFFFFF;
      text-decoration: none;
 	background-color:#4da2fc;
+}
+
+.alert_replybox{
+    -webkit-transition: 1.0s;
+    border:2px #ff2353 solid;
+    width:100%;
+    padding:10px;
+    height:50vh;
+    resize:none;
+    margin-top:10px;
+}
+
+.swal-overlay {
+  background-color: #f3f5f8;
+}
+
+.swal-modal {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

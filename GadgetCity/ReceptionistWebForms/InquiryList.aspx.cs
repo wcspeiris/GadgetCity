@@ -21,7 +21,7 @@ namespace GadgetCity.inquireView
         public void viewInquiryList()
         {
             cgCOnn.Open();
-            SqlCommand get_InqueryData = new SqlCommand("SELECT * FROM gcInquery", cgCOnn);
+            SqlCommand get_InqueryData = new SqlCommand("SELECT * FROM gcInquery WHERE inquery_status = 1", cgCOnn);
             SqlDataReader cg_inquiry = get_InqueryData.ExecuteReader();
             while (cg_inquiry.Read())
             {

@@ -13,15 +13,6 @@ namespace GadgetCity {
     public partial class sendReplay {
         
         /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
         /// InqNameShort control.
         /// </summary>
         /// <remarks>
@@ -49,15 +40,6 @@ namespace GadgetCity {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl InqDate;
         
         /// <summary>
-        /// InqEmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl InqEmail;
-        
-        /// <summary>
         /// InqMessage control.
         /// </summary>
         /// <remarks>
@@ -67,12 +49,30 @@ namespace GadgetCity {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl InqMessage;
         
         /// <summary>
-        /// TextBox1 control.
+        /// InqEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl InqEmail;
+        
+        /// <summary>
+        /// RepMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox RepMessage;
+        
+        /// <summary>
+        /// sendEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button sendEmail;
     }
 }

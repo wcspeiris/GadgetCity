@@ -93,7 +93,7 @@
                     <nav>
                         <ul class="nav">
                             <li><a href="gcReciptionist.aspx" class="" id="index"><i class="lnr lnr-home"></i><span>Dashboard</span></a></li>
-                            <li><a href="InquiryList.aspx" class="" id="element"><i class="lnr lnr-code"></i><span>Inquiries </span></a></li>
+                            <li><a href="InquiryList.aspx" class="" id="element"><i class="lnr lnr-code"></i><span style="margin-right:5px;">Inquiries</span><asp:Label ID="inqCount" runat="server" CssClass="label label-info">100</asp:Label></a></li>
                         </ul>
                     </nav>
                 </div>
