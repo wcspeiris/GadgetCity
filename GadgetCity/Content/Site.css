@@ -233,7 +233,7 @@ body{
     margin:0;
     font-family:Calibri;
     text-transform:uppercase;
-     font-size:15px;
+    font-size:15px;
 }
 
 .butto_url_replay{
@@ -276,6 +276,7 @@ body{
 .ClientMessage{
     font-family:Calibri;
     margin:0;
+    font-size:25px;
 }
 .ClientDate{
     font-family:Calibri;
@@ -297,4 +298,31 @@ body{
     border-radius:50%;
     display: table; 
     float:left;
+}
+
+.replay_messageBox{
+    width:100%;
+    padding:10px;
+    height:50vh;
+    resize:none;
+}
+
+
+.butto_blue{
+    -webkit-transition: 1.0s;
+    background-color: #33ccff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color:#FFFFFF;
+    border:none;
+    width:30%
+}
+.butto_blue:hover
+{
+    color:#FFFFFF;
+     text-decoration: none;
+	background-color:#4da2fc;
 }

@@ -26,21 +26,13 @@ namespace GadgetCity
 
             string letterOne = clientName.Substring(0, 1);
             int spaceCount = clientName.TakeWhile(Char.IsWhiteSpace).Count();
-
-            if(spaceCount == 1)
-            {
-                secondWord = clientName.Split(' ')[1];
-                letterTwo = secondWord.Substring(0, 1);
-                InqNameShort.InnerText = letterOne + letterTwo;
-            }
-            else
-            {
-                InqNameShort.InnerText = letterOne;
-            }
+            secondWord = clientName.Split(' ')[1];
+            letterTwo = secondWord.Substring(0, 1);
+            InqNameShort.InnerText = letterOne + letterTwo;
 
             InqName.InnerText = clientName;
             InqMessage.InnerText = message;
-            InqEmail.InnerText = email;
+            InqEmail.InnerText = "TO: "+email;
             InqDate.InnerText = dateTime;
         }
     }

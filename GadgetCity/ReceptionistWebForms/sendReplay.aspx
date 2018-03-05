@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../Content/bootstrap.css" />
     <link rel="stylesheet" href="../Content/bootstrap.min.css" />
     <link rel="stylesheet" href="../Content/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../Scripts/sweetalert.min.js" />
 </head>
 <body style="background-color:#f3f5f8;">
     <form id="form1" runat="server">
@@ -26,10 +27,14 @@
                     </div>
                     </div>
                   </div>
-
+            <hr />
             <div class="row">
                 <p class="ClientEmail" id="InqEmail" runat="server"></p>
                 <p class="ClientMessage" id="InqMessage" runat="server"></p>
+                <hr />
+                <asp:TextBox CssClass="replay_messageBox" ID="Message" runat="server" TextMode="MultiLine"></asp:TextBox>
+                <asp:Button ID="sendEmail" runat="server" Text="Send" CssClass="butto_blue" />
+                <asp:Label ID="inqSuccess" runat="server">Email Sent</asp:Label>
             </div>
         </div>
 
